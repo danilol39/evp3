@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h3>Dado N calcular: (11)+(22)+(33)+……(NN)</h3>
+        </header>
+        <hr>
+        <section>
+            <script>
+                var x=1,n,nn,sum=0;
+                n=parseInt(prompt("Ingrese un número"))
+
+                while (x<=n){
+                    nn=parseInt(""+x+x+"")
+                    sum=sum+nn
+                    x++
+                }
+                document.write("n = "+n+"<br>")
+                document.write("nn = "+nn+"<br>")
+                document.write("<br>Calculo: "+sum+"<br>");
+            </script>
+        </section>
+    </main>
+</body>
+</html>

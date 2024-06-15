@@ -1,0 +1,22 @@
+main{
+    width: 75%;
+    margin: auto;
+    border: 3px solid green;
+}
+header{
+    border:3px solid black;
+    text-align: center;
+    padding:10px;
+    height: 50px;
+}
+section{
+    padding: 20px;
+    background-color: rgb(223, 255, 223);
+}
+#circulo{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    float: left;
+}
